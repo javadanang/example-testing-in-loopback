@@ -1,0 +1,36 @@
+{
+  "name": "lrc",
+  "version": "0.1.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "lodash": "^3.10.1",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-datasource-juggler": "^2.39.0",
+    "serve-favicon": "^2.0.1",
+    "winston": "^1.0.1"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jshint": "^2.5.6",
+    "loopback-testing": "^1.2.0",
+    "mocha": "^2.3.2",
+    "rewire": "^2.3.4",
+    "sinon": "^1.16.1",
+    "supertest": "^1.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "lrc"
+}
