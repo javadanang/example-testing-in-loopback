@@ -1,25 +1,25 @@
-# LRC
+# Example-testing-in-LoopBack
 
 Clone source code from repository:
 
-$ git clone https://<your-username>@bitbucket.org/Johnnnn/lrc.git
+```
+$ git clone https://github.com/pnhung177/example-testing-in-loopback.git
+```
 
-Change to LRC source code folder:
+Change to source code folder:
 
-$ cd lrc
+```
+$ cd example-testing-in-loopback
+```
 
 Install libraries using npm:
 
+```
 $ npm install
+```
 
-Set NODE_ENV in development mode:
+Run the test:
 
-$ echo "export NODE_ENV=development" >> ~/.bashrc
-
-Close and reopen the Terminal to refresh the change. Install nodemon:
-
-$ npm install nodemon -g
-
-Run application using nodemon:
-
-$ nodemon .
+```
+$ npm test
+```
