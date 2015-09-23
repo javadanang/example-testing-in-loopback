@@ -1,10 +1,7 @@
 {
-  "name": "lrc",
+  "name": "example-testing-in-loopback",
   "version": "0.1.0",
   "main": "server/server.js",
-  "scripts": {
-    "pretest": "jshint ."
-  },
   "dependencies": {
     "async": "^1.4.2",
     "compression": "^1.0.3",
@@ -33,7 +30,7 @@
     "type": "",
     "url": ""
   },
-  "description": "lrc",
+  "description": "Example unit testing using mocha and end-to-end testing using cucumber in loopback based application",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/api/**/*-test.js"
   }
