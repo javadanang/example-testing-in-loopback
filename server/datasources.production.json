@@ -1,12 +1,8 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "bookstoreMongoDB": {
     "host": "localhost",
     "port": 27017,
-    "database": "example_bookstore_test",
+    "database": "example_bookstore",
     "name": "bookstoreMongoDB",
     "connector": "mongodb"
   }
