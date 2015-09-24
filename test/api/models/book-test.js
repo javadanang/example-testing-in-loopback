@@ -1,5 +1,6 @@
-var app = require('../../../server/server.js');
+var config = require('../config.js'); // should be before [app = require(...)]
 var logger = require('../../../server/lib/utils/logger.js');
+var app = require('../../../server/server.js');
 
 var async = require('async');
 var lodash = require('lodash');

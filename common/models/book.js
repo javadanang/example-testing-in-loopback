@@ -12,7 +12,7 @@ module.exports = function(Book) {
 			cb(err, book);
 		})
     }
-     
+
     Book.remoteMethod(
         'vat', 
         {
