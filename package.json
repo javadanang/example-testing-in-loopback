@@ -2,6 +2,11 @@
   "name": "example-testing-in-loopback",
   "version": "0.1.0",
   "main": "server/server.js",
+  "scripts": {
+    "test": "npm run unittest && npm run e2etest",
+    "unittest": "./node_modules/.bin/mocha test/api/**/*-test.js",
+    "e2etest": "./node_modules/.bin/cucumber.js test/web/features/*.feature"
+  },
   "dependencies": {
     "async": "^1.4.2",
     "compression": "^1.0.3",
@@ -19,6 +24,7 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "cucumber": "^0.5.3",
     "jshint": "^2.5.6",
     "loopback-testing": "^1.2.0",
     "mocha": "^2.3.2",
@@ -30,8 +36,5 @@
     "type": "",
     "url": ""
   },
-  "description": "Example unit testing using mocha and end-to-end testing using cucumber in loopback based application",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test/api/**/*-test.js"
-  }
+  "description": "Example unit testing using mocha and end-to-end testing using cucumber in loopback based application"
 }
